@@ -1,0 +1,31 @@
+:root { 
+    --dark-blue: #0f172a; 
+    --royal-blue: #2563eb; 
+}
+
+body { 
+    font-family: 'Plus Jakarta Sans', sans-serif; 
+    background-color: #f8fafc; 
+    color: #1e293b; 
+}
+
+.glass-card { 
+    background: var(--dark-blue); 
+    border: 1px solid #1e293b; 
+}
+
+.btn-glow { 
+    background: linear-gradient(135deg, var(--royal-blue) 0%, #1e40af 100%); 
+    color: white; 
+}
+
+.dark-input {
+    background-color: #1e293b !important;
+    border: 1px solid #334155 !important;
+    color: #ffffff !important;
+}
+
+.table-row-hover:hover { 
+    background-color: #1e293b; 
+    transition: 0.2s; 
+}
